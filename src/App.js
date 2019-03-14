@@ -84,7 +84,7 @@ class App extends Component {
           <section id="4">
             <h4>2. Import Editor and draft.css</h4>
             <img src={require("./assets/imports.png")} alt="screenshot of Editor and draft.css being imported into React app" className="screenshot" />
-            <h4>3. Use the Editor component like you would any other.</h4>
+            <h4 className="stepThree">3. Use the Editor component like you would any other.</h4>
             <p>The Editor component requires three props to work:</p>
             <img src={require("./assets/props.png")} alt="screenshot of Editor component code in React App" className="screenshot" />
             <a href="#5"><i class="far fa-arrow-alt-circle-down"></i></a>
