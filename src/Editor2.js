@@ -45,6 +45,7 @@ class Editor2 extends Component {
         return (
             <React.Fragment>
                 <Editor
+                    className="reverse-draft"
                     editorState={this.state.editorState}
                     handleKeyCommand={this.handleKeyCommand}
                     onChange={this.onChange}

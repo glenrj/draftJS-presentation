@@ -24,7 +24,16 @@ code {
   min-width: 500px;
   color: #2d3142;
   margin-top: 15px;
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.reverse-draft {
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.reverse-draft .public-DraftStyleDefault-block {
+  color: white;
 }
 
 html {
@@ -50,26 +59,28 @@ h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #06d6a0;
+  text-align: center;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 55px;
+  color: #ef476f;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 p {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Hind", sans-serif;
 }
 
@@ -81,24 +92,30 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 8% 15%;
+  padding: 8% 8%;
   position: relative;
   padding-bottom: 15%;
 }
 
-section:nth-last-of-type(odd) {
+section:nth-last-of-type(even) {
   background: #16334d;
   color: white;
 }
 
-section:nth-last-of-type(even) {
+section:nth-last-of-type(odd) {
   background: #FBF3E8;
   color: #16334d
 }
 
+section:nth-last-of-type(odd) h3,
+section:nth-last-of-type(odd) h2,
+section:nth-last-of-type(odd) h4 {
+  color: #ef476f;
+}
+
 .wrapper {
   width: 100%;
-  max-width: 1800px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -132,22 +149,22 @@ i {
   left: 48%;
 }
 
-i:nth-last-of-type(odd) {
-  /* color: #FBF3E8; */
+i {
   color: #ef476f;
-}
-
-i:nth-last-of-type(even) {
 }
 
 .screenshot {
   border-radius: 5px;
-  width: 80%;
+  width: 100%;
   border: 1px solid #FBF3E8;
 }
 
 .basicFunctions {
-  width: 70%;
+  width: 90%;
+}
+
+.richUtils {
+  width: 85%;
 }
 
 .image-link {
