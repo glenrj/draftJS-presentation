@@ -60,7 +60,7 @@ class App extends Component {
           <section id="1">
             <h3>What is Draft.js?</h3>
             <p>"Draft.js makes it easy to build any type of rich text input, whether you're just looking to support a few inline text styles or building a complex text editor for composing long-form articles." - Facebook Inc.</p>
-            <a href="#2"><i class="far fa-arrow-alt-circle-down"></i></a>
+            <a href="#2"><i className="far fa-arrow-alt-circle-down"></i></a>
           </section>
 
           <section id="2">
@@ -86,14 +86,15 @@ class App extends Component {
             <img src={require("./assets/imports.png")} alt="screenshot of Editor and draft.css being imported into React app" className="screenshot" />
             <a href="#5"><i class="far fa-arrow-alt-circle-down"></i></a>
           </section>
+
           <section id="5">
-            <h4 className="stepThree">3. Use the Editor component like you would any other.</h4>
+            <h4 className="stepThree">3. Use the Editor component like you would any other</h4>
             <p>The Editor component requires three props to work:</p>
             <img src={require("./assets/props.png")} alt="screenshot of Editor component code in React App" className="screenshot" />
             <a href="#6"><i class="far fa-arrow-alt-circle-down"></i></a>
           </section>
 
-          <section id="6">
+          <section id="6" className="imageSection">
             <img src={require("./assets/basicFunctions.png")} alt="screenshot of code, showing the functions that must be included for Draft.js to work" className="screenshot basicFunctions" />
             <a href="#7"><i class="far fa-arrow-alt-circle-down"></i></a>
           </section>

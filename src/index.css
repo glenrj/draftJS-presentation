@@ -113,6 +113,10 @@ section:nth-last-of-type(odd) h4 {
   color: #ef476f;
 }
 
+.imageSection {
+  padding: 5% 5%;
+}
+
 .wrapper {
   width: 100%;
   max-width: 1280px;
